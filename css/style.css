@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap'); 
+@import"./reset.css";
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Caveat', sans-serif ;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1230px; 
+    padding: 0 30px; 
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #f1f1f1;
+    padding-top: 46px;
+} 
+
+
+.header_nav{
+    margin-bottom: 76px;
+    display: flex;  
+    justify-content:space-between; 
+    align-items: flex-end;
+
+
+}
+ 
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+} 
+
+/* nav*/
+.nav_list{
+    display: flex;
+    column-gap: 30px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.nav_link{
+    color: black;
+}
+/* header */
+.header_row{
+   display: flex ;
+   justify-content: space-between;
+   column-gap: 30px;
+}
+
+.header_img{
+    max-width: 400px;
+    position: relative;
+    top: -50px;
+}
+
+.header_content{
+    max-width: 500px; 
+    margin-top: 124px;
+} 
+.header_content p{
+    line-height: 2;
+}
+
+.header_heading{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+} 
+
+/*Services */ 
+.service{
+    padding: 90px 0;
+} 
+
+.service_row{
+    display: flex; 
+    contain: 30px;
+}
+
+.service_card__img{
+    margin-bottom: 30px;
+} 
+
+
+
+.service_card__title{
+   font-weight: 600; 
+   font-size: 24px;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+ }
+
+.service_card p{
+     
+  line-height: 2;
+}  
+/*portfolio*/ 
+.portfolio{
+    background-color: #f1f1f1;
+    padding: 90px 0;
+}
+
+.porfolio_title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.title{
+    font-size: 34px; 
+    font-weight: 600;
+} 
+.project{
+    text-align: center;
+}
+.project_img{
+    margin-bottom: 40px; 
+    max-width: 500px;
+}
+.project_title{
+    font-size: 18px;
+}
+
+.project_title a{
+    color: #000; 
+    text-decoration: underline
+} 
+.project + .project{
+    margin-top: 90px;
+} 
+
+/*footer*/ 
+.contacts{
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts_title{
+    margin-bottom: 40px;
+} 
+
+.contacts_content{
+    font-size: 18px; 
+    margin-bottom: 40px;
+} 
+.contacts_icons{
+    width:  40px; 
+    height: 40px;
+}
+
+.contacts_button{
+    margin-bottom: 80px;
+}
+
+.button{
+  background-color: #070707; 
+  display: inline-block; 
+  padding: 7px 22px; 
+  border-radius: 30px;
+  font-size: 18px;
+  color: #f1f1f1; 
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.contacts_social{
+    display: flex; 
+    justify-content: center; 
+    column-gap: 60px; 
+    align-items: center; 
+    margin-bottom: 40px;
+} 
+.contacts_footer{
+   color: #828282;
+} 
+.button:hover, .button:focus{
+    background-color: #292929;
+}
+
+.button:active{
+    background-color: #000;
+    position: relative; 
+    top: 1px;
+}
+.swipe_up{
+   position: fixed; 
+   bottom:0;
+   left: 0;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   justify-content: center; 
+   background-color: rgb(208, 179, 179);
+}
